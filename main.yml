@@ -1,0 +1,3 @@
+uc_path: '/Users/renero/Code/BOTs/BOT_PoC/model/data_prep/synthetic_data/'
+
+uc_names: ['uc_cards', 'uc_coverage']

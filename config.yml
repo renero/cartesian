@@ -1,0 +1,30 @@
+#
+# Configuration Parameters for the synthetic utterances generator
+#
+encoding: utf8
+sep: ;
+
+# Name of the headers to be used in the CSV file to be generated.
+utt_header: utterance
+tag_header: tag
+com_header: combination_id
+amr_header: amr
+
+# Max nr of records per cartesian product:
+max_records: 5000
+max_rows: 50
+
+# Name of the dir to be used to generate the output
+output_dirname: 'output'
+
+amr:
+  ae: <a:error_funcionamiento>
+  ar: <a:robo>
+  ac: <a:usuario_caducado>
+  ad: <a:error_datos>
+  ai: <a:informacion>
+  asc: <a:contratacion>
+  asr: <a:renovacion>
+  asnc: <a:cancelacion>
+  ot: <o:tarjeta>
+  ci: <c:info_usuario>
